@@ -3,7 +3,7 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = 'Backend_api';
+const API_ROOT = 'node-js-backend-api';
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
