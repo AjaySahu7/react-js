@@ -3,8 +3,8 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = 'http://54.167.154.86:3000/api';
-/*const API_ROOT = 'https://vinayakwp.squareops.co.in/api';*/
+const API_ROOT = 'https://node-js-backend-api/api';
+
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
